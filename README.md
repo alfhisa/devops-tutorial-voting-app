@@ -8,7 +8,7 @@ This is a simple fullstack web application built with Node.js/Express.js. It's d
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 test-devops-voting/
