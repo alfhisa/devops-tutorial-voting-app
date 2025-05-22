@@ -2,6 +2,10 @@
 
 This is a simple fullstack web application built with Node.js/Express.js. It's designed to help students understand and implement a basic DevOps pipeline using **GitHub Actions** for Continuous Integration (CI) and manual deployment to **Render**.
 
+🚀 [LIVE DEMO](https://voting-app-devops-tutorial.onrender.com)
+
+![Screenshot](https://github.com/alfhisa/voting-app-devops-tutorial/raw/main/demo.png)
+
 ---
 
 ## 📁 Project Structure
