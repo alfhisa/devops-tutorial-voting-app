@@ -99,6 +99,6 @@ Render will automatically redeploy your app when new changes are pushed to `main
 
 ---
 
-## 🎯 Final Notes
+## Final Notes
 
 This tutorial is created by [@alfhisa](https://github.com/alfhisa) for educational use in DevOps and Software Engineering courses.
