@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DevOps Voting App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 DevOps Voting App</h1>
+    <p>Choose your favorite programming language:</p>
+    <form action="/vote" method="POST">
+      <button name="vote" value="Python">🐍 Python</button>
+      <button name="vote" value="JavaScript">🟨 JavaScript</button>
+      <button name="vote" value="Go">🐹 Go</button>
+    </form>
+    <h2>Live Results</h2>
+    <div id="results"></div>
+    <footer>
+      <p>Software Engineering Class - Simple DevOps Tutorial – by <a href="https://github.com/alfhisa" target="_blank">alfhisa</a></p>
+    </footer>
+  </div>
+  <script>
+    fetch('/results')
+      .then(res => res.json())
+      .then(data => {
+        const results = Object.entries(data)
+          .map(([k, v]) => `<p><strong>${k}</strong>: ${v} votes</p>`)
+          .join('');
+        document.getElementById('results').innerHTML = results;
+      });
+  </script>
+</body>
+</html>
