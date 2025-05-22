@@ -24,8 +24,12 @@ test-devops-voting/
 
 ## Step 1 – Setup Project Locally
 
+> **Recommended:** First, fork the repository to your own GitHub account so you have full control and ownership of your version.
+
 ```bash
-git clone https://github.com/alfhisa/test-devops-voting.git
+# Fork the repo at https://github.com/alfhisa/test-devops-voting
+# Then clone your forked version:
+git clone https://github.com/YOUR_USERNAME/test-devops-voting.git
 cd test-devops-voting
 npm install
 npm start
